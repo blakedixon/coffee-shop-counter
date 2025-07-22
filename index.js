@@ -13,3 +13,7 @@ function save() {
     countEl.textContent = 0
     count = 0
 }
+
+// Make functions globally available for onclick handlers
+window.increment = increment
+window.save = save
