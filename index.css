@@ -1,0 +1,98 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1956&q=80");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2c1810;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #8b4513;
+    font-weight: 700;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    width: 220px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#increment-btn {
+    background: linear-gradient(135deg, #d2691e, #cd853f);
+    border: 2px solid #b8860b;
+}
+
+#increment-btn:hover {
+    background: linear-gradient(135deg, #cd853f, #d2691e);
+}
+
+#save-btn {
+    background: linear-gradient(135deg, #228b22, #32cd32);
+    border: 2px solid #006400;
+}
+
+#save-btn:hover {
+    background: linear-gradient(135deg, #32cd32, #228b22);
+}
+
+#save-el {
+    color: #2c1810;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(139, 69, 19, 0.1);
+    border-radius: 10px;
+    border-left: 4px solid #8b4513;
+}
+
